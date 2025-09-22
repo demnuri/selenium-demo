@@ -24,6 +24,8 @@ public class C05 extends TestBaseBeforeAfter {
         //"Drop here" yazısı yerine "Dropped!" olduğunu test edin
         Assert.assertEquals("Dropped!",driver.findElement(By.xpath("//*[text()='Dropped!']")).getText());
 
+        //version2
+
 
     }
 }
